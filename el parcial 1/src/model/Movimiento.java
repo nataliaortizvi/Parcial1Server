@@ -2,17 +2,16 @@ package model;
 
 public class Movimiento {
 	 //metadata
-    private String type;
+    private String type = "Movimiento";
     private float x,y;
 
     public Movimiento(){
     }
 
-    public Movimiento(float x, float y, String type){
+    public Movimiento(float x, float y){
         super();
         this.x = x;
         this.y = y;
-        this.type = type;
     }
    
 	
